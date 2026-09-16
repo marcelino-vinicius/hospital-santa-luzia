@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <title>Agendar Consulta - Hospital Santa Luzia</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="containertopo">
-        <a href="../index.html">
-            <img src="../imagens/icone.png" alt="icone" class="icone">
-        </a>
-        <div class="elementos">
-            <a href="../index.html" class="t">Inicio</a>
-            <a href="#agendar" class="t">Agendar</a>
-            <a href="../index.html #medicos" class="t">Atendimentos</a>
+  <a href="../index.html" tabindex="-1">
+    <img src="../imagens/icone.png" alt="icone" class="icone">
+  </a>
+  <div class="elementos">
+    <a href="../index.html" tabindex="-1" class="t">Inicio</a>
+    <a href="#agendar" tabindex="-1" class="t">Agendar</a>
+    <a href="../index.html #medicos" tabindex="-1" class="t">Atendimentos</a>
 
-            <a href="" class="t">Contatos</a>
-        </div>
+    <a href="#contatos" tabindex="-1" class="t">Contatos</a>
+    </div>
     </div>
 
     <main class="m-3">
@@ -33,22 +31,22 @@
         <form>
 
             <label>Nome completo:</label>
-            <input type="text" name="nome">
+            <input type="text" tabindex="-1" name="nome">
 
             <br><br>
 
             <label>CPF:</label>
-            <input type="text" name="cpf">
+            <input type="text" tabindex="-1" name="cpf">
 
             <br><br>
 
             <label>Telefone:</label>
-            <input type="text" name="telefone">
+            <input type="text" tabindex="-1" name="telefone">
 
             <br><br>
 
             <label>Especialidade:</label>
-            <select name="especialidade">
+            <select tabindex="-1" name="especialidade">
                 <option>Selecione</option>
                 <option>Cardiologia</option>
                 <option>Pediatria</option>
@@ -59,7 +57,7 @@
             <br><br>
 
             <label>Médico:</label>
-            <select name="medico">
+            <select tabindex="-1" name="medico">
                 <option>Selecione o médico</option>
                 <option>João Silva</option>
                 <option>Maria Souza</option>
@@ -70,12 +68,12 @@
             <br><br>
 
             <label>Data:</label>
-            <input type="date" name="data">
+            <input type="date" tabindex="-1" name="data">
 
             <br><br>
 
             <label>Horário:</label>
-            <select name="horario">
+            <select tabindex="-1" name="horario">
                 <option>08:00</option>
                 <option>09:30</option>
                 <option>11:00</option>
@@ -84,34 +82,34 @@
 
             <br><br>
 
-            <button type="submit">Confirmar</button>
+            <button type="submit" tabindex="-1">Confirmar</button>
 
         </form>
 
         <p>
-            Para confirmar o agendamento, clique no botão <strong>"Confirmar"</strong>.
+            Para confirmar o agendamento, clique no botão <strong>"Confirmar"</strong>
         </p>
 
     </main>
-    <footer id='contatos' class="rodape">
+<footer id='contatos' class="rodape">
 
-        <div>
-            <h3>Hospital Santa Luzia</h3>
-            <p>Cuidando da sua saúde.</p>
-        </div>
+    <div>
+        <h3>Hospital Santa Luzia</h3>
+        <p>Cuidando da sua saúde.</p>
+    </div>
 
-        <div>
-            <p>📞 Telefone: (11) 3456-7890</p>
-            <p>✉️ contato@santaluzia.com.br</p>
-        </div>
+    <div>
+        <p>📞 Telefone: (11) 3456-7890</p>
+        <p>✉️ contato@santaluzia.com.br</p>
+    </div>
 
-        <div>
-            <p>📍 Rua das Flores, 100 - Centro</p>
-            <p>© 2026 Hospital Santa Luzia</p>
-        </div>
+    <div>
+        <p>📍 Rua das Flores, 100 - Centro</p>
+        <p>© 2026 Hospital Santa Luzia</p>
+    </div>
 
-    </footer>
+</footer>
 
 </body>
-
 </html>
+
